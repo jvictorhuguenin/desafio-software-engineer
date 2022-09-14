@@ -6,7 +6,7 @@ import com.google.api.services.sheets.v4.SheetsScopes;
 import java.util.Collections;
 import java.util.List;
 
-public class ExcelDataInterfaceImpl implements DataInterface{
+public class GSpreadSheetDataInterfaceImpl implements DataInterface{
   // three rows with data that doesn't belong to user, or are metadata, like field titles.
   private final static Integer dataOffSet = 3;
 
